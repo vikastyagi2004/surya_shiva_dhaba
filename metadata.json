@@ -1,0 +1,6 @@
+{
+  "name": "Surya Shiva Dhaba - 24h Highway Dhaba NH-9",
+  "description": "Authentic 24-hour highway dhaba on NH-9, Hapur. Authentic North Indian cuisine, Dal Makhani, Kadai Paneer, fresh tandoor rotis, and traditional Kulhad Chai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
