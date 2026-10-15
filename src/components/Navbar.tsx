@@ -78,9 +78,11 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
               onClick={() => setMobileMenuOpen(false)}
               className="group flex items-center gap-2.5 whitespace-nowrap shrink-0 text-decoration-none min-h-[48px]"
             >
-              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-[#FF7A18] via-[#FFB703] to-[#D62828] flex items-center justify-center shadow-[0_0_12px_rgba(255,122,24,0.4)] group-hover:scale-105 transition-transform">
-                <span className="font-desi text-lg text-black font-bold">सू</span>
-              </div>
+              <img
+                src="/surya-shiva-logo.png"
+                alt=""
+                className="w-10 h-10 rounded-full object-cover shadow-[0_0_12px_rgba(255,122,24,0.4)] group-hover:scale-105 transition-transform"
+              />
               <div className="flex flex-col">
                 <span className="font-display font-extrabold text-base sm:text-lg md:text-xl tracking-tight text-[#FFF3E0] group-hover:text-[#FFB703] transition-colors leading-tight">
                   Surya Shiva Dhaba
@@ -152,9 +154,11 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
             {/* Top Bar with Brand & Close Button */}
             <div className="flex items-center justify-between px-5 py-4 border-b border-[#FFB703]/20">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#FF7A18] to-[#FFB703] flex items-center justify-center text-black font-desi font-bold">
-                  सू
-                </div>
+                <img
+                  src="/surya-shiva-logo.png"
+                  alt=""
+                  className="w-9 h-9 rounded-full object-cover"
+                />
                 <span className="font-display font-bold text-lg text-[#FFF3E0]">
                   Surya Shiva Dhaba
                 </span>

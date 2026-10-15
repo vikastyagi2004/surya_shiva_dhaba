@@ -21,9 +21,11 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
           {/* Col 1: Brand & Philosophy */}
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#FF7A18] via-[#FFB703] to-[#D62828] flex items-center justify-center font-desi font-bold text-black">
-                सू
-              </div>
+              <img
+                src="/surya-shiva-logo.png"
+                alt=""
+                className="w-9 h-9 rounded-full object-cover"
+              />
               <span className="font-display font-extrabold text-xl text-[#FFF3E0]">
                 Surya Shiva Dhaba
               </span>
